@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="QLDHCDModelStoreContainer" CdmEntityContainer="QLDHCDEntities">
+    <EntitySetMapping Name="BANGBAUBKS">
+      <EntityTypeMapping TypeName="QLDHCDModel.BANGBAUBK">
+        <MappingFragment StoreEntitySet="BANGBAUBKS">
+          <ScalarProperty Name="MADH" ColumnName="MADH" />
+          <ScalarProperty Name="MACD" ColumnName="MACD" />
+          <ScalarProperty Name="HINHTHUCBAU" ColumnName="HINHTHUCBAU" />
+          <ScalarProperty Name="SLPHIEUBAU" ColumnName="SLPHIEUBAU" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BANGBAUHDQTs">
+      <EntityTypeMapping TypeName="QLDHCDModel.BANGBAUHDQT">
+        <MappingFragment StoreEntitySet="BANGBAUHDQT">
+          <ScalarProperty Name="MADH" ColumnName="MADH" />
+          <ScalarProperty Name="MACD" ColumnName="MACD" />
+          <ScalarProperty Name="HINHTHUCBAU" ColumnName="HINHTHUCBAU" />
+          <ScalarProperty Name="SLPHIEUBAU" ColumnName="SLPHIEUBAU" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BANGYKIENs">
+      <EntityTypeMapping TypeName="QLDHCDModel.BANGYKIEN">
+        <MappingFragment StoreEntitySet="BANGYKIEN">
+          <ScalarProperty Name="MAYK" ColumnName="MAYK" />
+          <ScalarProperty Name="MADH" ColumnName="MADH" />
+          <ScalarProperty Name="NOIDUNG" ColumnName="NOIDUNG" />
+          <ScalarProperty Name="SLDONGY" ColumnName="SLDONGY" />
+          <ScalarProperty Name="SLKHONGDONGY" ColumnName="SLKHONGDONGY" />
+          <ScalarProperty Name="SLYKKHAC" ColumnName="SLYKKHAC" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CODONGs">
+      <EntityTypeMapping TypeName="QLDHCDModel.CODONG">
+        <MappingFragment StoreEntitySet="CODONG">
+          <ScalarProperty Name="MACD" ColumnName="MACD" />
+          <ScalarProperty Name="HoTen" ColumnName="HoTen" />
+          <ScalarProperty Name="CMND" ColumnName="CMND" />
+          <ScalarProperty Name="NgayCap" ColumnName="NgayCap" />
+          <ScalarProperty Name="NoiCap" ColumnName="NoiCap" />
+          <ScalarProperty Name="DiaChi" ColumnName="DiaChi" />
+          <ScalarProperty Name="QuocTich" ColumnName="QuocTich" />
+          <ScalarProperty Name="ChucVu" ColumnName="ChucVu" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="SDT" ColumnName="SDT" />
+          <ScalarProperty Name="TrinhDoVanHoa" ColumnName="TrinhDoVanHoa" />
+          <ScalarProperty Name="TrinhDoChuyenMon" ColumnName="TrinhDoChuyenMon" />
+          <ScalarProperty Name="ANHCD" ColumnName="ANHCD" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CT_BAUBKS">
+      <EntityTypeMapping TypeName="QLDHCDModel.CT_BAUBKS">
+        <MappingFragment StoreEntitySet="CT_BAUBKS">
+          <ScalarProperty Name="MACT" ColumnName="MACT" />
+          <ScalarProperty Name="MADH" ColumnName="MADH" />
+          <ScalarProperty Name="MANGDUOCBAU" ColumnName="MANGDUOCBAU" />
+          <ScalarProperty Name="MANGDIBAU" ColumnName="MANGDIBAU" />
+          <ScalarProperty Name="SLPHIEUBAU" ColumnName="SLPHIEUBAU" />
+          <ScalarProperty Name="HINHTHUCBAU" ColumnName="HINHTHUCBAU" />
+          <ScalarProperty Name="THOIGIANBAU" ColumnName="THOIGIANBAU" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CT_BAUHDQT">
+      <EntityTypeMapping TypeName="QLDHCDModel.CT_BAUHDQT">
+        <MappingFragment StoreEntitySet="CT_BAUHDQT">
+          <ScalarProperty Name="MACT" ColumnName="MACT" />
+          <ScalarProperty Name="MADH" ColumnName="MADH" />
+          <ScalarProperty Name="MANGDUOCBAU" ColumnName="MANGDUOCBAU" />
+          <ScalarProperty Name="MANGDIBAU" ColumnName="MANGDIBAU" />
+          <ScalarProperty Name="SLPHIEUBAU" ColumnName="SLPHIEUBAU" />
+          <ScalarProperty Name="HINHTHUCBAU" ColumnName="HINHTHUCBAU" />
+          <ScalarProperty Name="THOIGIANBAU" ColumnName="THOIGIANBAU" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CT_DHCD">
+      <EntityTypeMapping TypeName="QLDHCDModel.CT_DHCD">
+        <MappingFragment StoreEntitySet="CT_DHCD">
+          <ScalarProperty Name="MADH" ColumnName="MADH" />
+          <ScalarProperty Name="MACD" ColumnName="MACD" />
+          <ScalarProperty Name="SLCP" ColumnName="SLCP" />
+          <ScalarProperty Name="SLDAUQ" ColumnName="SLDAUQ" />
+          <ScalarProperty Name="SLDCUQ" ColumnName="SLDCUQ" />
+          <ScalarProperty Name="HTDK" ColumnName="HTDK" />
+          <ScalarProperty Name="SLCPSAUCUNG" ColumnName="SLCPSAUCUNG" />
+          <ScalarProperty Name="QUYENBAUCU" ColumnName="QUYENBAUCU" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CTBQYKIENs">
+      <EntityTypeMapping TypeName="QLDHCDModel.CTBQYKIEN">
+        <MappingFragment StoreEntitySet="CTBQYKIEN">
+          <ScalarProperty Name="SLPHIEUBAU" ColumnName="SLPHIEUBAU" />
+          <ScalarProperty Name="MAYK" ColumnName="MAYK" />
+          <ScalarProperty Name="MADH" ColumnName="MADH" />
+          <ScalarProperty Name="MACD" ColumnName="MACD" />
+          <ScalarProperty Name="LUACHON" ColumnName="LUACHON" />
+          <ScalarProperty Name="NOIDUNGYKKHAC" ColumnName="NOIDUNGYKKHAC" />
+          <ScalarProperty Name="THOIGIANBAU" ColumnName="THOIGIANBAU" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DHCDs">
+      <EntityTypeMapping TypeName="QLDHCDModel.DHCD">
+        <MappingFragment StoreEntitySet="DHCD">
+          <ScalarProperty Name="MADH" ColumnName="MADH" />
+          <ScalarProperty Name="TenDH" ColumnName="TenDH" />
+          <ScalarProperty Name="nQKin" ColumnName="nQKin" />
+          <ScalarProperty Name="nQBefore" ColumnName="nQBefore" />
+          <ScalarProperty Name="nDeCuHDQT" ColumnName="nDeCuHDQT" />
+          <ScalarProperty Name="nUngCuHDQT" ColumnName="nUngCuHDQT" />
+          <ScalarProperty Name="nDeCuBKS" ColumnName="nDeCuBKS" />
+          <ScalarProperty Name="nUngCuBKS" ColumnName="nUngCuBKS" />
+          <ScalarProperty Name="thoiGian" ColumnName="thoiGian" />
+          <ScalarProperty Name="ACTIVE" ColumnName="ACTIVE" />
+          <ScalarProperty Name="TONGSOPHIEU" ColumnName="TONGSOPHIEU" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UYQUYENs">
+      <EntityTypeMapping TypeName="QLDHCDModel.UYQUYEN">
+        <MappingFragment StoreEntitySet="UYQUYEN">
+          <ScalarProperty Name="MAUQ" ColumnName="MAUQ" />
+          <ScalarProperty Name="MADH" ColumnName="MADH" />
+          <ScalarProperty Name="MANGCHUYEN" ColumnName="MANGCHUYEN" />
+          <ScalarProperty Name="MANGNHAN" ColumnName="MANGNHAN" />
+          <ScalarProperty Name="SLUQ" ColumnName="SLUQ" />
+          <ScalarProperty Name="THOIGIAN" ColumnName="THOIGIAN" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
